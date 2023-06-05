@@ -1,0 +1,32 @@
+/* This is a CSS code block that defines the styling for input fields of type "text" and "email", as
+well as textareas. It sets the width to 100%, adds padding, a border, border-radius, and sets the
+box-sizing to border-box. It also adds margin to the top and bottom and allows for vertical resizing
+of the textarea. */
+
+input[type=text], input[type=email], textarea {
+    color: white;
+    width: 100%; 
+    background-color: #1A1C24;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  button[type=submit] {
+    background-color: #2A4A3C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  button[type=submit]:hover {
+    background-color: #CD1818;
+  }
